@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios del Servicio | Recuperación DVR LATAM</title>
+    <meta name="description" content="Precios claros para recuperación de acceso a DVR Hikvision. Reset $25 USD | Reset + Desvinculación $35 USD. Servicio remoto en toda Latinoamérica.">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .pricing-container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .pricing-header { background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%); color: white; padding: 60px 20px; text-align: center; }
+        .pricing-header h1 { font-size: 2.5rem; margin-bottom: 15px; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+        
+        .price-card { background: white; border-radius: 16px; padding: 40px 30px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); position: relative; }
+        .price-card.popular { border: 3px solid #16a34a; transform: scale(1.02); }
+        .popular-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #16a34a; color: white; padding: 6px 20px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        
+        .price-card h3 { color: #0f172a; font-size: 1.4rem; margin-bottom: 10px; }
+        .price-card .desc { color: #64748b; font-size: 0.95rem; margin-bottom: 25px; }
+        .price-amount { font-size: 3.5rem; font-weight: 700; color: #0f172a; margin: 20px 0; }
+        .price-amount span { font-size: 1rem; color: #94a3b8; display: block; margin-top: 5px; }
+        
+        .features { list-style: none; padding: 0; margin: 25px 0; text-align: left; }
+        .features li { padding: 10px 0; border-bottom: 1px solid #f1f5f9; color: #334155; display: flex; align-items: center; gap: 10px; }
+        .features li:before { content: "✓"; color: #16a34a; font-weight: bold; }
+        .features li.disabled { color: #94a3b8; text-decoration: line-through; }
+        .features li.disabled:before { content: "✗"; color: #cbd5e1; }
+        
+        .btn-price { display: block; width: 100%; padding: 15px; border-radius: 8px; text-decoration: none; font-weight: 700; text-align: center; margin-top: 20px; transition: transform 0.2s; }
+        .btn-price:hover { transform: translateY(-2px); }
+        .btn-basic { background: #f1f5f9; color: #0f172a; }
+        .btn-popular { background: #16a34a; color: white; }
+        
+        .express-box { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 25px; margin: 30px 0; border-radius: 0 12px 12px 0; }
+        .express-box h4 { color: #92400e; margin-bottom: 10px; }
+        .express-box p { color: #78350f; margin: 5px 0; }
+        
+        .payment-section { text-align: center; margin: 40px 0; }
+        .payment-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 600px; margin: 0 auto; }
+        .payment-item { border-radius: 12px; padding: 25px; text-align: center; }
+        .payment-item.peru { background: #dbeafe; border: 2px solid #2563eb; }
+        .payment-item.global { background: #f0fdf4; border: 2px solid #16a34a; }
+        .payment-item h4 { margin-bottom: 10px; font-size: 1.2rem; }
+        .payment-item.peru h4 { color: #1e40af; }
+        .payment-item.global h4 { color: #166534; }
+        .payment-item p { margin: 0; color: #475569; font-size: 1rem; }
+        .payment-logo { font-size: 2.5rem; margin-bottom: 10px; }
+        
+        .countries-list { background: #f8fafc; border-radius: 12px; padding: 20px; margin: 20px 0; }
+        .countries-list p { color: #475569; margin: 0; font-size: 0.95rem; }
+        
+        .guarantee-box { background: #dbeafe; border-left: 4px solid #2563eb; padding: 20px; margin: 30px 0; border-radius: 0 12px 12px 0; color: #1e40af; }
+        
+        .legal-note { background: #fee2e2; border-left: 4px solid #ef4444; padding: 20px; margin: 30px 0; border-radius: 0 12px 12px 0; color: #991b1b; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+
+    <header class="pricing-header">
+        <h1>Precios Claros, Sin Sorpresas</h1>
+        <p>Servicio remoto profesional · 10-30 minutos · Toda Latinoamérica</p>
+    </header>
+
+    <div class="pricing-container">
+        
+        <div class="pricing-grid">
+            
+            <!-- Plan Básico -->
+            <div class="price-card">
+                <h3>🔐 Reset de Contraseña</h3>
+                <p class="desc">Para equipos donde solo olvidaste la clave de acceso</p>
+                
+                <div class="price-amount">
+                    $25 USD
+                    <span>Horario estándar</span>
+                </div>
+                
+                <ul class="features">
+                    <li>Reset de contraseña local</li>
+                    <li>Acceso al menú del DVR/NVR</li>
+                    <li>Creación de nueva contraseña segura</li>
+                    <li class="disabled">Desvinculación Hik-Connect</li>
+                    <li class="disabled">Vinculación a nueva cuenta</li>
+                    <li>Soporte técnico incluido</li>
+                    <li>Tiempo: 10-20 minutos</li>
+                </ul>
+                
+                <a href="https://wa.me/51914239762?text=Hola,%20necesito%20solo%20reset%20de%20contraseña%20($25%20USD)" class="btn-price btn-basic" target="_blank">
+                    Elegir Reset Básico
+                </a>
+            </div>
+
+            <!-- Plan Completo (Popular) -->
+            <div class="price-card popular">
+                <div class="popular-badge">MÁS ELEGIDO</div>
+                <h3>🔓 Recuperación Total</h3>
+                <p class="desc">Solución completa para equipos bloqueados o vinculados</p>
+                
+                <div class="price-amount">
+                    $35 USD
+                    <span>Horario estándar</span>
+                </div>
+                
+                <ul class="features">
+                    <li>✓ Todo lo del plan básico</li>
+                    <li>Reset de contraseña</li>
+                    <li>Desvinculación Hik-Connect</li>
+                    <li>Vinculación a tu nueva cuenta</li>
+                    <li>Configuración app móvil</li>
+                    <li>Verificación de acceso remoto</li>
+                    <li>Tiempo: 15-30 minutos</li>
+                </ul>
+                
+                <a href="https://wa.me/51914239762?text=Hola,%20necesito%20recuperación%20total%20($35%20USD)%20-%20reset%20%2B%20desvinculación" class="btn-price btn-popular" target="_blank">
+                    Elegir Recuperación Total
+                </a>
+            </div>
+
+        </div>
+
+        <div class="express-box">
+            <h4>🌙 Fuera de horario estándar</h4>
+            <p><strong>Horario estándar:</strong> Lunes a Sábado, 9am - 8pm (hora Perú)</p>
+            <p><strong>Fuera de horario:</strong> Domingos, madrugada o festivos</p>
+            <p style="margin-top: 10px;"><strong>Precio especial fuera de horario: +$10 USD</strong></p>
+            <p style="font-size: 0.9rem; color: #a16207;">Reset: $35 USD | Recuperación Total: $45 USD</p>
+        </div>
+
+        <div class="payment-section">
+            <h3>💳 Medios de Pago</h3>
+            
+            <div class="payment-grid">
+                
+                <div class="payment-item peru">
+                    <div class="payment-logo">🇵🇪</div>
+                    <h4>Perú</h4>
+                    <p><strong>Yape</strong></p>
+                    <p style="font-size: 0.9rem; margin-top: 5px;">Rápido y sin comisiones</p>
+                </div>
+
+                <div class="payment-item global">
+                    <div class="payment-logo">🌎</div>
+                    <h4>Latinoamérica</h4>
+                    <p><strong>PayPal</strong></p>
+                    <p style="font-size: 0.9rem; margin-top: 5px;">México, Colombia, Chile, Ecuador, Argentina, Bolivia y más</p>
+                </div>
+
+            </div>
+
+            <div class="countries-list">
+                <p>🇲🇽 México · 🇨🇴 Colombia · 🇨🇱 Chile · 🇪🇨 Ecuador · 🇦🇷 Argentina · 🇧🇴 Bolivia · 🇻🇪 Venezuela · 🇺🇾 Uruguay · 🇵🇾 Paraguay · 🇨🇷 Costa Rica · 🇬🇹 Guatemala · 🇵🇦 Panamá y toda Latinoamérica</p>
+            </div>
+
+            <p style="color: #64748b; font-size: 0.9rem; margin-top: 20px;">
+                Al confirmar tu caso, te enviamos los datos de pago según tu país.
+            </p>
+        </div>
+
+        <div class="guarantee-box">
+            <strong>🛡️ Garantía de servicio:</strong> Si no logramos recuperar el acceso a tu equipo, <strong>te devolvemos el 100%</strong> del pago. Tiempo garantizado: 10-30 minutos.
+        </div>
+
+        <div class="legal-note">
+            <strong>Importante:</strong> El pago se realiza antes de iniciar la sesión remota. Solicitamos evidencia de propiedad del equipo antes de proceder. No trabajamos con equipos reportados como robados.
+        </div>
+
+        <p style="text-align: center; margin-top: 40px;">
+            <a href="../index.html" style="color: #2563eb; text-decoration: none;">← Volver a la página principal</a>
+        </p>
+
+    </div>
+
+    <footer style="background: #0f172a; color: white; text-align: center; padding: 30px;">
+        <p>© 2026 Servicio Hik LATAM</p>
+        <p>Servicio técnico independiente - No somos representantes oficiales de ninguna marca</p>
+    </footer>
+
+</body>
+</html>
